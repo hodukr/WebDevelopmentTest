@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>aaaa</h1>
+    <p>This is a simple web page created with HTML.</p>
+</body>
+</html>
+
+<button id="myButton">Click me</button>
+<p id="message"></p>
+
+<script>
+    document.getElementById("myButton").addEventListener("click", function() {
+        document.getElementById("message").innerText = "You clicked the button!";
+    });
+</script>
